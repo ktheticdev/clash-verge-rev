@@ -237,6 +237,7 @@ jobs:
           files: |
             src-tauri/target/${{ matrix.target }}/release/bundle/deb/*.deb
             src-tauri/target/${{ matrix.target }}/release/bundle/rpm/*.rpm
+            src-tauri/taget/${{ matrix.target }}/release/bundle/appimage/*.AppImage*
 
   release-for-fixed-webview2:
     name: Release Build for Fixed WebView2
